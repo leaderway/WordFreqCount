@@ -5,6 +5,8 @@
 	* [SplitFileUtil类](#SplitFileUtil类)
 	* [WordFreqCountUtil类](#WordFreqCountUtil类)
 * [使用样例](#使用样例)
+
+
 <a name="思路说明"></a>
 ##思路说明
 * 由于文件的大小比较大，如果采用一次性读取整个文件的做法会导致内存溢出，因此可将大文件按照指定的大小切割为若干个相对较小的文件，再依次使用切割后的文件进行词频统计。
